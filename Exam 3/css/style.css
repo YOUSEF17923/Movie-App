@@ -1,0 +1,59 @@
+body {
+background-color: black;
+}
+
+img.logo {
+    width: 35px;
+}
+.visible-nav{
+    width: 70px;
+}
+.hiddden-nav {
+    width: 250px;
+}
+nav {
+    left: -250px;
+    transition: all 0.5s;
+}
+.item figure img {
+    transition: all 0.5s;
+}
+.item:hover img {
+    transform: scale(1.2) rotate(8deg);
+}
+.item:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.link {
+    display: none;
+}
+
+.in-contact{
+    background-color: transparent;
+    border: none;
+    border-bottom: white solid 2px ;
+    padding: 10px;
+    color: white;
+    
+}
+
+.clictop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+}
+
+nav ul li a:hover{
+    color: #dc3545 !important;
+}
